@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: CMG Sans, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(39, 37, 36);
+    color:rgb(160, 185, 124);
+    padding: 20px;
+}
+
+.lyrics-box {
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.title-box {
+    text-align: center;
+    background-color: #282828;
+    border: 2px solid #555;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.title-box h1 {
+    font-size: 2.5em;
+    color:rgb(160, 185, 124);
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+
+.title-box h2 {
+    font-size: 1.5em;
+    color:rgb(160, 185, 124);
+}
+
+.image-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.verse-box, .chorus-box {
+    background-color: #555; 
+    border: 1px solid #777;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.chorus-box {
+    background-color: #444;
+    font-style: italic;
+}
+
+.solo-box {
+    text-align: center;
+    background-color: #282828;
+    border: 2px dashed #888; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #f4f4f9;      
+}

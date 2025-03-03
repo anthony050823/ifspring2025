@@ -1,9 +1,0 @@
-.portrait {
-    float: left; /* Float the image to the left */
-    margin: 0 2rem 2rem 0; /* Top: 0, Right: 2rem, Bottom: 2rem, Left: 0 */
-  }
-  
-  .instructions {
-    clear: both; /* Ensures the list moves past floated elements */
-  }
-  

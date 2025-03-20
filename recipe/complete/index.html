@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unstuffed Shells Pasta Bake</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <div class="nav">
+        <a href="#recipe">Recipe</a>
+        <a href="#ingredients">Ingredients</a>
+        <a href="#instructions">Instructions</a>
+        <a href="#storage">Storage</a>
+    </div>
+    
+    <header>
+        <h1>Unstuffed Shells Pasta Bake</h1>
+    </header>
+    
+    <div class="container">
+        <section id="recipe" class="section">
+            <button class="toggle">Recipe Overview</button>
+            <div class="content">
+                <p>Tender pasta shells with ricotta, cream cheese, Parmesan, marinara, and ground beef, topped with bubbling mozzarella.</p>
+                <img src="ingredient.webp" alt="Recipe Ingredients">
+            </div>
+        </section>
+
+        <section id="ingredients" class="section">
+            <button class="toggle">Ingredients</button>
+            <div class="content">
+                <ul>
+                    <li>12 oz medium pasta shells</li>
+                    <li>1 lb ground sirloin</li>
+                    <li>1 1/4 tsp kosher salt</li>
+                    <li>1 tsp Italian seasoning</li>
+                    <li>1/2 tsp black pepper</li>
+                    <li>1 yellow onion, chopped</li>
+                    <li>1.5 tbsp minced garlic</li>
+                    <li>1 jar marinara sauce</li>
+                    <li>1 cup ricotta cheese</li>
+                    <li>1 (8oz) package cream cheese</li>
+                    <li>1/2 cup Parmesan cheese</li>
+                    <li>1/4 cup fresh basil</li>
+                    <li>1 large egg</li>
+                    <li>1 cup mozzarella cheese</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section id="instructions" class="section">
+            <button class="toggle">Instructions</button>
+            <div class="content">
+                <ol>
+                    <li>Preheat oven to 350°F. Grease a baking dish. <img src="image-1.webp" alt="Preheat oven and prepare dish"></li>
+                    <li>Cook pasta shells in salted boiling water. <img src="image0.webp" alt="Cooking pasta"></li>
+                    <li>In a skillet, heat oil, cook sirloin, onion, garlic, then add marinara sauce. <img src="image1.webp" alt="Cooking beef and sauce"></li>
+                    <li>Mix ricotta, cream cheese, Parmesan, basil, egg, and seasoning. <img src="image2.webp" alt="Mixing cheese filling"></li>
+                    <li>Layer pasta, meat sauce, ricotta mix, repeat, then top with mozzarella. <img src="image3.webp" alt="Layering in the baking dish"></li>
+                    <li>Bake uncovered for 20-25 minutes until golden and bubbly. <img src="image4.webp" alt="Adding mozzarella and baking"></li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="storage" class="section">
+            <button class="toggle">Storage & Reheating</button>
+            <div class="content">
+                <p><strong>Storage:</strong> Store leftovers in an airtight container in the refrigerator for up to 4 days.</p>
+                <p><strong>Reheating:</strong> Oven at 350°F for 10-15 minutes or microwave for 1-2 minutes.</p>
+                <img src="image5.webp" alt="Final dish ready to serve">
+            </div>
+        </section>
+    </div>
+
+    <script>
+        document.querySelectorAll('.toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                let content = button.nextElementSibling;
+                content.style.display = content.style.display === 'block' ? 'none' : 'block';
+            });
+        });
+    </script>
+    <footer>
+        <p>	&copy; Copyright 2025 | Recipe by Anthony Huang </p>
+    </footer>
+</body>
+</html>

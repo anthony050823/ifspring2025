@@ -1,0 +1,29 @@
+.public-list ul {
+	width: 695px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 100px;
+}
+
+.public-list .list1 .item {
+	width: 360px;
+}
+
+.public-list .list1 .item div:first-child {
+	margin-bottom: 50px;
+}
+
+.public-content .list2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 100px;
+}
+
+.public-content .list2 li:first-child {
+	width: 570px;
+}
+
+.public-page .haibao {
+	background: #D1DCFC;
+	padding-top: 100px;
+}

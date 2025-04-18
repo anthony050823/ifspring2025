@@ -1,0 +1,54 @@
+.public-list .list1 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 50px;
+}
+
+.public-list .list1 .item1 {
+	width: 300px;
+}
+
+.public-list .list1 .item2 {
+	width: 400px;
+}
+
+.public-list .list1 .item2 .box {
+	margin-bottom: 30px;
+}
+
+.public-list .list1 .item2 .box1 div {
+	font-size: 17px;
+	font-weight: 600;
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+.public-list .list1 .item3 {
+	width: 183px;
+}
+
+.public-list .list1 .item3 img {
+	margin-bottom: 50px;
+}
+
+.public-content .list2 {
+	gap: 50px 100px !important;
+	margin-top: 50px;
+}
+
+.public-content ul li h4 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.public-content .list2 .box2 {
+	margin-bottom: 50px;
+}
+
+.public-content .list3 {
+	margin-top: 50px;
+}
+
+.public-content .list3 li:first-child {
+	width: 500px;
+}

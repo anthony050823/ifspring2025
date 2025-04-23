@@ -1,0 +1,33 @@
+.public-list .list1 {
+	width: 484px;
+}
+
+.public-list .list2 {
+	margin-bottom: 50px;
+}
+
+.public-list .list2 ul {
+	margin-top: 30px;
+}
+
+.public-list .list2 img {
+	width: 400px;
+}
+
+.public-list ul .item1 {
+	padding: 0 83px;
+}
+
+.public-list ul .item2 {
+	padding: 0 30px;
+}
+
+.public-list ul .item3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+}
+
+.public-list ul .item3 div {
+	width: 217px;
+}

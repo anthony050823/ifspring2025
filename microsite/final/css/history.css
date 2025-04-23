@@ -1,0 +1,32 @@
+.public-list .list1 {
+	width: 582px;
+}
+
+.public-content img {
+	width: 301px;
+}
+
+.public-content .list2 ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 51px;
+}
+
+.public-content .list2 ul li:first-child {
+	width: 426px;
+}
+
+.public-content .list2 ul li:last-child {
+	width: 506px;
+}
+
+.public-content .list3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	gap: 49px;
+	margin: 50px 0;
+}
+
+.public-content .list3 img {
+	width: 209px;
+}
